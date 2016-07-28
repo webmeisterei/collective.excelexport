@@ -5,6 +5,11 @@ Changelog
 1.3 (unreleased)
 ----------------
 
+- Feature: only export fields where the current user has the permission to read
+  that field. The security check doesn't not happen on the object but
+  on the context of the calling view for performance reasons.
+  [pcdummy]
+
 - Fix: try to get the value of a method if the field is a method and translate
   DateTime results to a unicode, this fixes the export for objects with the IPublication
   Behavior.
@@ -70,4 +75,3 @@ Changelog
 
 - Initial release.
   [thomasdesvenain]
-
