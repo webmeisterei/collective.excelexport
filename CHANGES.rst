@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.3 (unreleased)
+1.3 (2016-09-21)
 ----------------
 
 - Feature: only export fields where the current user has the permission to read
